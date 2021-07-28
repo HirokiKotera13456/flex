@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+header{
+  width:100%;
+  background-color:rgb(189, 0, 189);
+  padding:30px 20px;
+}
+
+.mbox-content{
+  display:flex;
+  justify-content: flex-end;
+}
+
+.mbox-content > :first-child{
+  margin-right:auto;
+}
+
+
+.mbox1{
+  margin:0 10px;
+  height:70px;
+  flex-basis:140px;
+  background-color:rgb(184, 147, 184);
+}
+
+.mbox2{
+  margin:0 10px;
+  height:70px;
+  flex-basis:140px;
+  background-color:rgb(184, 147, 184);
+}
+
+.mbox3{
+  margin:0 10px;
+  height:70px;
+  flex-basis:140px;
+  background-color:rgb(184, 147, 184);
+}
+
+.mbox4{
+  margin:0 10px;
+  height:70px;
+  flex-basis:140px;
+  background-color:rgb(184, 147, 184);
+}
+
+.mbox5{
+  margin:0 10px;
+  height:70px;
+  flex-basis:140px;
+  background-color:rgb(184, 147, 184);
+}
+
+.main{
+  display:flex;
+  margin-left:auto;
+  justify-content: center;
+}
+
+.sidebar{
+  width:300px;
+  height:490px;
+  background-color: aquamarine;
+}
+
+.main-visual{
+  max-width:700px;
+  flex-grow:1;
+  padding:20px;
+  background-color: green;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.box1{
+  flex-basis:200px;
+  height:130px;
+  background-color: yellow;
+  margin:10px;
+}
+
+.box2{
+  flex-basis:200px;
+  height:130px;
+  background-color: yellow;
+  margin:10px;
+}
+
+.box3{
+  flex-basis:200px;
+  height:130px;
+  background-color: yellow;
+  margin:10px;
+}
+
+.box4{
+  flex-basis:200px;
+  height:130px;
+  background-color: yellow;
+  margin:10px;
+}
+
+.box5{
+  flex-basis:200px;
+  height:130px;
+  background-color: yellow;
+  margin:10px;
+}
+
+.box6{
+  flex-basis:200px;
+  height:130px;
+  background-color: yellow;
+  margin:10px;
+}
+
+.box7{
+  flex-basis:200px;
+  height:130px;
+  background-color: yellow;
+  margin:10px;
+}
+
+.box8{
+  flex-basis:200px;
+  height:130px;
+  background-color: yellow;
+  margin:10px;
+}
+
+.box9{
+  flex-basis:200px;
+  height:130px;
+  background-color: yellow;
+  margin:10px;
+}
+
+footer{
+  width:100%;
+  background-color: blue;
+  padding:20px;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+footer > :last-child{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+.size1{
+  flex-basis:45%;
+  max-width:600px;
+  height:40px;
+  background-color: rgb(155, 224, 226);
+  margin:10px;
+}
+
+.size2{
+  flex-basis:45%;
+  max-width:600px;
+  height:40px;
+  background-color: rgb(155, 224, 226);
+  margin:10px;
+}
+
+.size3{
+  flex-basis:45%;
+  max-width:600px;
+  height:40px;
+  background-color: rgb(155, 224, 226);
+  margin:10px;
+}
